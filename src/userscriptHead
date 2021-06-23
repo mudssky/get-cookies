@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name         sample
-// @namespace    
+// @name         get-cookies
+// @namespace    https://github.com/mudssky/get-cookies
 // @version      0.1
-// @description  sample
 // @author       mudssky
-// @include       *://*/*
-// @grant        none
-// @homepageURL 
-// @supportURL       
+// @description  获取网站的cookie,支持字符串,json,netcscpe标准格式
+// @author       mudssky
+// @grant        GM_registerMenuCommand
+// @grant        GM_setClipboard
+// @match     *://*/*
+// @run-at document-start
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @require file://C:\Projects\get-cookies\src\index.js
 // ==/UserScript==

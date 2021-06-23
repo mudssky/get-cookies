@@ -1,7 +1,7 @@
 {
-  "name": "userscript-typescript-only",
-  "version": "1.0.0",
-  "description": "",
+  "name": "get-cookies",
+  "version": "0.1.0",
+  "description": "userscript for getting cookies ,support json and netscape format",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
