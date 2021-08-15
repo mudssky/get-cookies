@@ -63,6 +63,8 @@ function convertNetScopeCookies(copyFromChrome: string) {
     httpOnly = httpOnly === '✓' ? 'TRUE' : 'FALSE'
     if (expiration === 'Session') {
       expiration = '' + new Date(Date.now() + 86400 * 1000).getTime() / 1000
+    } else {
+      expiration = '' + Math.floor(new Date(expiration).getTime())
     }
 
     cookieStr +=

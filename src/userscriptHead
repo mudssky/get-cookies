@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         get-cookies
 // @namespace    https://github.com/mudssky/get-cookies
-// @version      0.1
+// @version      0.2
 // @author       mudssky
 // @description  获取网站的cookie,支持字符串,json,netcscpe标准格式
 // @grant        GM_registerMenuCommand
